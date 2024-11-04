@@ -1,0 +1,53 @@
+/* Navbar */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    margin-right: 20px; /* Add space between the Home and Logout links */
+    font-weight: 500;
+  }
+  
+  .navbar .navbar-nav {
+    margin-left: auto; /* Aligns the Home and Logout links to the right */
+  }
+  
+  /* Home Container */
+  .home-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Buttons for functionalities */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .button-container .btn {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    width: 200px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .button-container .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
